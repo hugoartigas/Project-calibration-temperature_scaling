@@ -1,3 +1,10 @@
+# DL-DIY potential project ideas
+- calibration is crucial for any machine learning system
+- as project ideas we can test different calibration strategies from both traditional machine learning (Platt Scaling, isotonic regression) and deep-learning approaches (temperature scaling)
+- the ECE metric (Expected Calibration Error), has been subject to several critics recently. Other calibration metrics can be considered [here](https://github.com/uu-sml/calibration) or complementary metrics for [robustness](https://github.com/google-research/robustness_metrics)
+
+---------------------
+
 # Temperature Scaling
 A simple way to calibrate your neural network.
 The `temperature_scaling.py` module can be easily used to calibrated any trained model.
